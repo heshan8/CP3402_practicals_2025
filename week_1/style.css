@@ -62,3 +62,27 @@ footer {
     font-size: 16px;
     border-radius: 4px;
 }
+
+.services {
+    background: white;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.services h2 {
+    color: #222;
+}
+.services ul {
+    list-style-position: inside;
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+
+}
+.services ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
