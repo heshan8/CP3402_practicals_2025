@@ -31,7 +31,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 22px;
-    padding: 10px 15px;
+    padding: 11px 15px;
     transition: 0.3s ease;
 }
 
@@ -92,3 +92,74 @@ footer {
     margin: 10px 0;
     font-size: 18px;
 }
+
+/* Contact us section styling */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Contact Form */
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Submit Button */
+.contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact button:hover {
+    background: #ffaa00;
+}
+
