@@ -45,3 +45,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.banner {
+    color: black;
+    padding: 80px 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
