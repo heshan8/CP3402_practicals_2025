@@ -1,0 +1,34 @@
+/*
+Theme Name: Twenty Twenty - Child
+Description: Child theme for Twenty Twenty
+Author: Tharindu Heshan
+Template: twentytwenty
+Text Domain: twentytwenty-child
+*/
+
+/* Custom styles */
+body {
+    background-color: #cdcdd4;
+}
+
+.site-title {
+    color: purple;
+    font-family: 'Arial', sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+#site-header {
+    background-color: #ffcc00; /* Yellow background */
+}
+
+#site-footer {
+    background-color: #333;
+    color: #a3593a;
+    padding: 20px;
+    text-align: center;
+}
+
+.entry-content {
+    font-size: 5rem;
+}
