@@ -43,3 +43,9 @@ if ($hour < 12) {
     echo "<p>Good evening!</p>";
 }
 
+//Functions - with parameters
+echo "<h3>Greeting</h3>";
+function greet($name): string{
+    return "Hello, $name!";
+}
+echo "<p>" . greet("Heshan") . "</p>";
