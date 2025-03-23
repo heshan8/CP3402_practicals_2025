@@ -5,6 +5,6 @@
 </head>
 <body>
     <footer>
-        <p>&copy; <?php echo date("Y"); ?> My Favorite Things</p>
+        <p>&copy; <?php echo date("Y"); ?> My Favorite Site</p>
     </footer>
 <main>

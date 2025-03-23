@@ -1,6 +1,6 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php';
 
-<?php
+
 // Echo - echoing different kinds of HTML
 // using Echo to print HTML
 echo "<h1>Movies</h1>";
@@ -45,8 +45,10 @@ if ($hour < 12) {
 }
 
 //Functions - with parameters
-echo "<h3>Greeting</h3>";
+echo "<h3>Greet Person</h3>";
 function greet($name): string{
     return "Hello, $name!";
 }
 echo "<p>" . greet("Heshan") . "</p>";
+
+include 'footer.php';
