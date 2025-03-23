@@ -30,3 +30,16 @@ while ($count <= 6) {
     echo "$count <br>";
     $count++;
 }
+
+//Decisions - if/else statements
+echo "<h3>Greeting based on time of day</h3>";
+$hour = date("H");
+
+if ($hour < 12) {
+    echo "<p>Good morning!</p>";
+} elseif ($hour < 18) {
+    echo "<p>Good afternoon!</p>";
+} else {
+    echo "<p>Good evening!</p>";
+}
+
