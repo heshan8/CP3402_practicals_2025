@@ -20,5 +20,13 @@ echo "</ul>";
 // For loop
 echo "<h3>Counting with For Loop:</h3>";
 for ($i = 1; $i <= 6; $i++) {
-    echo "Number: $i <br>";
+    echo "$i <br>";
+}
+
+// While loop
+echo "<h3>Counting with While Loop:</h3>";
+$count = 1;
+while ($count <= 6) {
+    echo "$count <br>";
+    $count++;
 }
