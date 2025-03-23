@@ -15,5 +15,10 @@ $favoriteShows = ["True Detective", "Fargo", "The X-Files", "Severance", "Lost"]
 foreach ($favoriteShows as $show) {
     echo "<li>$show</li>";    }
 
-echo "<ul>";
+echo "</ul>";
 
+// For loop
+echo "<h3>Counting with For Loop:</h3>";
+for ($i = 1; $i <= 6; $i++) {
+    echo "Number: $i <br>";
+}
