@@ -33,6 +33,7 @@ while ($count <= 6) {
 
 //Decisions - if/else statements
 echo "<h3>Greeting based on time of day</h3>";
+date_default_timezone_set("Australia/Brisbane");
 $hour = date("H");
 
 if ($hour < 12) {
